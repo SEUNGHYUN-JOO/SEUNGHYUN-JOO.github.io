@@ -10,10 +10,10 @@ redirect_from:
 {% include base_path %}
 
 ## 🚧 Under Construction
-[cite_start]I am currently updating my Curriculum Vitae.
+I am currently updating my Curriculum Vitae.
 
 **Current Status:**
-* **M.S. [cite_start]Student**, Aerospace Vehicle Design Laboratory (AVDL), Seoul National University.
+* **M.S. Student**, Aerospace Vehicle Design Laboratory (AVDL), Seoul National University.
 * Expected Graduation: August 2026.
 
 Full CV in PDF format will be available here soon. In the meantime, please refer to my **Publications** and **Portfolio** sections for more details on my work.
