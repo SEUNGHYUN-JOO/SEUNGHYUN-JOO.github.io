@@ -18,7 +18,6 @@ The framework enables integrated workflows for aerodynamics, propulsion, and fli
 
 #### 2. Multidisciplinary Design Optimization (MDO)
 * **Wing Planform Optimization:** Conducted wing planform optimization by considering the coupling between aerodynamics and structural constraints.
-* **Design Framework Integration:** Applied the developed UVLM code into the AMADEVS environment to perform optimization cycles for various aircraft missions, including UAM quadcopters and Mars helicopters.
 
 ---
 
