@@ -11,7 +11,7 @@ redirect_from:
 
 I am a **Master's student** at the **Aerospace Vehicle Design Laboratory (AVDL)**, Seoul National University. My research lies at the intersection of **Fluid Dynamics** and **Data-Driven Science**, with a specific focus on **Turbulence Modeling** and **Physics-Informed Machine Learning**.
 
-I am currently seeking a **Ph.D. position** for [Fall 2027] where I can contribute to the development of next-generation turbulence closures and flow control strategies using Artificial Intelligence.
+I am currently seeking a **Ph.D. position** for Fall 2027 where I can contribute to the development of next-generation turbulence closures and flow control strategies using Artificial Intelligence.
 
 ---
 
