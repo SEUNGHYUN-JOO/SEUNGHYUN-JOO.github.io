@@ -6,4 +6,5 @@ permalink: /publication/2025-evtol-lbm-apisat
 date: 2025-11-01
 venue: 'Asia Pacific International Symposium On Aerospace Technology (APISAT 2025)'
 excerpt: 'Analysis of aerodynamic characteristics of eVTOL configurations using the Lattice Boltzmann Method (LBM).'
+citation: 'Juneyoung Lim, **Seunghyun Joo**, and Kwanjung Yee. (2025). "Downwash/Outwash Analysis of eVTOL Configurations Using the Lattice-Boltzmann Method." *APISAT 2025*.'
 ---

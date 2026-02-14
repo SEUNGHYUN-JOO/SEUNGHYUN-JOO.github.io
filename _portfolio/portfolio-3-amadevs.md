@@ -1,6 +1,6 @@
 ---
 title: "AMADEVS: Generalized Aircraft Modeling & MDO Framework"
-excerpt: "Development of a Free-wake Unsteady VLM code and multidisciplinary wing planform optimization for next-generation aircraft. <br/><br/>[Under Construction]"
+excerpt: "Development of a Free-wake Unsteady VLM code and multidisciplinary wing planform optimization for next-generation aircraft."
 collection: portfolio
 ---
 
