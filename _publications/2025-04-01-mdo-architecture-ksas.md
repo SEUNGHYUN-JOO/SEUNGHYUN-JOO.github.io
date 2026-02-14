@@ -1,5 +1,5 @@
 ---
-title: "Generalized Modeling Architecture for Aerospace Multidisciplinary Analysis and Design (In Korean)"
+title: "A Generalized Modeling Architecture for Aircraft Multidisciplinary Analysis and Design (In Korean)"
 collection: publications
 category: conferences
 permalink: /publication/2025-mdo-ksas
