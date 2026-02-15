@@ -25,7 +25,7 @@ My research goal is to develop robust aerodynamic models by integrating physics-
 
 ## 🎓 Education
 * **M.S. in Aerospace Engineering**, Seoul National University, *Sep 2024 – Present*
-* **B.S. in Aerospace Engineering & Business Administration (Double Major)**, Seoul National University, *Aug 2024*
+* **B.S. in Aerospace Engineering & B.B.A. in Business Administration (Double Major)**, Seoul National University, *Aug 2024*
 
 ---
 
