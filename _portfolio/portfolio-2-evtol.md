@@ -95,17 +95,17 @@ My role centered on establishing solver credibility and ensuring the physical re
 
 
 <p align="center">
-  <img src="assets\images\portfolio-2-evtol\슬라이드1.PNG" width="45%">
-  <img src="assets\images\portfolio-2-evtol\슬라이드7.PNG" width="45%">
-  <img src="assets\images\portfolio-2-evtol\슬라이드10.PNG" width="45%">
-  <img src="assets\images\portfolio-2-evtol\슬라이드11.PNG" width="45%">
-  <img src="assets\images\portfolio-2-evtol\슬라이드13.PNG" width="45%">
-  <img src="assets\images\portfolio-2-evtol\슬라이드16.PNG" width="45%">
-  <img src="assets\images\portfolio-2-evtol\슬라이드18.PNG" width="45%">
-  <img src="assets\images\portfolio-2-evtol\슬라이드20.PNG" width="45%">
-  <img src="assets\images\portfolio-2-evtol\슬라이드22.PNG" width="45%">
+  <img src="{{ '/assets/images/portfolio-2-evtol/슬라이드1.PNG'  | relative_url }}" width="45%">
+  <img src="{{ '/assets/images/portfolio-2-evtol/슬라이드7.PNG'  | relative_url }}" width="45%">
+  <img src="{{ '/assets/images/portfolio-2-evtol/슬라이드10.PNG' | relative_url }}" width="45%">
+  <img src="{{ '/assets/images/portfolio-2-evtol/슬라이드11.PNG' | relative_url }}" width="45%">
+  <img src="{{ '/assets/images/portfolio-2-evtol/슬라이드13.PNG' | relative_url }}" width="45%">
+  <img src="{{ '/assets/images/portfolio-2-evtol/슬라이드16.PNG' | relative_url }}" width="45%">
+  <img src="{{ '/assets/images/portfolio-2-evtol/슬라이드18.PNG' | relative_url }}" width="45%">
+  <img src="{{ '/assets/images/portfolio-2-evtol/슬라이드20.PNG' | relative_url }}" width="45%">
+  <img src="{{ '/assets/images/portfolio-2-evtol/슬라이드22.PNG' | relative_url }}" width="45%">
 </p>
 
 <video width="700" controls>
-  <source src="assets\images\portfolio-2-evtol\CH-47D.mp4" type="video/mp4">
+  <source src="{{ '/assets/images/portfolio-2-evtol/CH-47D.mp4' | relative_url }}" type="video/mp4">
 </video>
