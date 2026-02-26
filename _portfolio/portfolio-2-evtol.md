@@ -118,13 +118,13 @@ My role centered on establishing solver credibility and ensuring the physical re
 
   <img src="{{ '/assets/images/portfolio-2-evtol/슬라이드20.PNG' | relative_url }}" 
        style="width:100%; height:auto; display:block;">
-       
+
   <img src="{{ '/assets/images/portfolio-2-evtol/슬라이드22.PNG' | relative_url }}" 
        style="width:100%; height:auto;">
 </div>
 
 <div style="max-width: 900px; margin: auto;">
   <video style="width: 100%; height: auto;" controls>
-    <source src="{{ '/assets/videos/portfolio-2-evtol/CH-47D.mp4' | relative_url }}" type="video/mp4">
+    <source src="{{ '/assets/images/portfolio-2-evtol/CH-47D.mp4' | relative_url }}" type="video/mp4">
   </video>
 </div>
