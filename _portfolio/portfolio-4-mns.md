@@ -7,6 +7,16 @@ collection: portfolio
 ## 🔍 Project Overview: Integrated M&S Development
 This project aims to secure an integrated Modeling & Simulation (M&S) environment required for the development of **next-generation high-speed, long-range rotorcraft**. The focus was on building a high-performance computational framework and specialized analysis modules for unconventional rotorcraft configurations.
 
+**Project Information**
+- Funding Scale: **$5M Program**
+- Sector: Defense Aerospace
+- Role: M&S Framework & Aerodynamic Module Development
+
+> ⚠️ **Confidentiality Notice**  
+> This project was conducted under defense-related security constraints.  
+> Therefore, detailed numerical results, system-level performance data, and optimization outputs are intentionally omitted.  
+> This page presents only the validation results of the coaxial rotor aerodynamic module for demonstration purposes.
+
 ## 🛠️ Key Technical Contributions
 
 ### 1. High-Performance Python-C++ Interface & Wrapper
@@ -31,6 +41,3 @@ This project aims to secure an integrated Modeling & Simulation (M&S) environmen
 * **Aerodynamics:** Blade Element Theory (BET), Coaxial Rotor Dynamics
 
 ---
-
-## 🚧 Under Construction
-Detailed visualization of the sizing sensitivity analysis and documentation will be updated soon.
