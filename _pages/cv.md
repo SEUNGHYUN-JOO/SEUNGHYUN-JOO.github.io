@@ -55,7 +55,7 @@ Jan 2022 – May 2022
 
 **Aerospace Vehicle Design Laboratory (AVDL), Seoul National University**  
 **Master's Researcher**  
-Sep 2024 – Present
+Sep 2024 – Present  
 *Advisor: Prof. Kwanjung Yee*
 
 - Conduct research on **data-driven turbulence and transition modeling**, with an emphasis on incorporating physical mechanisms into predictive models.
@@ -65,7 +65,7 @@ Sep 2024 – Present
 
 **Undergraduate Research Opportunity Program (UROP), Seoul National University**  
 **Undergraduate Researcher**  
-Jan 2024 – Feb 2024
+Jan 2024 – Feb 2024  
 *Advisor: Prof. Kyoungdoug Min*
 
 - Conducted undergraduate research on **battery equivalent circuit model (ECM) parameter extraction** using HPPC data.
