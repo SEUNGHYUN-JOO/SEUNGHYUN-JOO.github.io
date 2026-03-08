@@ -56,11 +56,23 @@ Jan 2022 – May 2022
 **Aerospace Vehicle Design Laboratory (AVDL), Seoul National University**  
 **Master's Researcher**  
 Sep 2024 – Present
+*Advisor: Prof. Kwanjung Yee*
 
 - Conduct research on **data-driven turbulence and transition modeling**, with an emphasis on incorporating physical mechanisms into predictive models.
 - Develop and validate computational workflows for **multi-fidelity aerodynamic analysis**, spanning low-fidelity conceptual design methods to higher-fidelity simulation environments.
 - Contribute to the development of **generalized aircraft modeling and multidisciplinary design frameworks** for aerospace vehicle analysis and optimization.
 - Participate in collaborative research related to eVTOL aerodynamics, conceptual design tools, and integrated simulation environments for next-generation aircraft.
+
+**Undergraduate Research Opportunity Program (UROP), Seoul National University**  
+**Undergraduate Researcher**  
+Jan 2024 – Feb 2024
+*Advisor: Prof. Kyoungdoug Min*
+
+- Conducted undergraduate research on **battery equivalent circuit model (ECM) parameter extraction** using HPPC data.
+- Built and analyzed a **2-RC Thevenin equivalent circuit model** for lithium-ion batteries and derived model equations for pulse and relaxation segments.
+- Applied and compared multiple parameter estimation and optimization methods, including **least-squares optimization (LSO)**, **particle swarm optimization (PSO)**, and **genetic algorithm (GA)**.
+- Used **MATLAB** for curve fitting, optimization, and numerical analysis to estimate resistance and capacitance parameters across SOC conditions.
+- **Evaluated model fitting performance across multiple optimization strategies and developed a stronger foundation in data-driven modeling and scientific computation.**
 
 ---
 
