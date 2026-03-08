@@ -30,8 +30,9 @@ Sep 2024 – Present
 **B.S. in Aerospace Engineering**  
 **B.B.A. in Business Administration** (Double Major)  
 Mar 2018 – Aug 2024  
-- Graduated **summa cum laude**
+- Graduated **Summa Cum Laude**
 - GPA: **3.90 / 4.30**
+- Leave of absence for mandatory military service in the **Republic of Korea Army**; discharged with the rank of **Sergeant** (Aug 2019 – Mar 2021)
 
 **Nanyang Technological University (NTU)** — Singapore  
 **Exchange Student**  
@@ -126,15 +127,27 @@ For a complete and updated list, please see the [Publications](/publications/) p
 
 ---
 
-## Military Service
+## Honors & Scholarships
 
-**Republic of Korea Army**  
-**Sergeant (Honorably Discharged)**  
-Aug 2019 – Mar 2021
+**BK21 FOUR Scholarship**, Seoul National University  
+Fall 2024  
+- Recipient of graduate research scholarship support under the **BK21 FOUR** program.
+- Awarded as part of a national graduate education and research support initiative designed to foster advanced research training and help graduate students focus on academic and research excellence.
 
-- Completed mandatory military service in the Republic of Korea Army.
-- Served until discharge with the rank of **Sergeant**.
-- Developed discipline, teamwork, responsibility, and adaptability through full-time military service.
+**Global Leadership Program Scholarship**, College of Engineering, Seoul National University  
+Spring 2022  
+- Awarded in support of exchange study preparation and participation.
+- Recognized for academic promise and international engagement aligned with the program’s goal of fostering globally minded future leaders and enhancing the international presence of Seoul National University College of Engineering.
+
+**Academic Excellence Scholarship**, Seoul National University  
+Spring 2019, Fall 2021, Fall 2022, Spring 2023  
+- Awarded for outstanding academic performance during undergraduate study.
+
+**Kiwoom Securities University Investment Competition**  
+Award Recipient  
+Jul 2022 – Aug 2022  
+- Achieved **82.21% return over 6 weeks**
+- Received a **KRW 1,000,000 award/scholarship**
 
 ---
 
@@ -150,16 +163,6 @@ Sep 2022 – Present
 **Volunteer Translator**  
 Feb 2022 – Feb 2023  
 - Translate sponsor letters between Korean and English for an international child sponsorship organization.
-
----
-
-## Honors & Achievements
-
-**Kiwoom Securities University Investment Competition**  
-Award Recipient  
-Jul 2022 – Aug 2022  
-- Achieved **82.21% return over 6 weeks**
-- Received a **KRW 1,000,000 award/scholarship**
 
 ---
 
