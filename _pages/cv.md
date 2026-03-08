@@ -67,7 +67,7 @@ Sep 2024 – Present
 
 **Teaching Assistant, Seoul National University**  
 **Digital Computer Concept and Practice**  
-Fall 2025
+Spring 2025
 
 - Assisted undergraduate students in understanding core concepts in digital logic and computer systems through hands-on practice sessions.
 - Supported laboratory exercises, implementation tasks, and debugging processes for course assignments.
