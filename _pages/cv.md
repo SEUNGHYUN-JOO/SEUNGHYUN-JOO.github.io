@@ -31,7 +31,7 @@ Sep 2024 – Present
 **B.B.A. in Business Administration** (Double Major)  
 Mar 2018 – Aug 2024  
 - Graduated **summa cum laude**
-- GPA: **3.97 / 4.30**
+- GPA: **3.90 / 4.30**
 
 **Nanyang Technological University (NTU)** — Singapore  
 **Exchange Student**  
