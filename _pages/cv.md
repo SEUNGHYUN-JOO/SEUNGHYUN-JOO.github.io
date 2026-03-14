@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <iframe
-  src="{{ base_path }}/files/seunghyun-joo-cv.pdf"
+  src="{{ base_path }}/files/seunghyun_joo_cv.pdf"
   width="100%"
   height="1100px"
   style="border: none;"
@@ -19,5 +19,5 @@ redirect_from:
 </iframe>
 
 <p style="margin-top: 1rem;">
-  <a href="{{ base_path }}/files/seunghyun-joo-cv.pdf">Download CV as PDF</a>
+  <a href="{{ base_path }}/files/seunghyun_joo_cv.pdf">Download CV as PDF</a>
 </p>
