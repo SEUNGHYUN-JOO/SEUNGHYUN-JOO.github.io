@@ -7,54 +7,78 @@ collection: portfolio
 [![GitHub](https://img.shields.io/badge/GitHub-overset--hisafoam-181717?logo=github)](https://github.com/SEUNGHYUN-JOO/overset-hisafoam)
 
 ## 🔍 Project Overview
+
 [HiSA](https://hisa.gitlab.io/) is a density-based, coupled (GMRES/LU-SGS)
-compressible solver for OpenFOAM — but OpenFOAM's native overset machinery
-works through segregated `fvMatrix` solves, so it never engages in HiSA's
-coupled system. **overset-hisafoam** bridges that gap and turns HiSA into a
+compressible solver for OpenFOAM. OpenFOAM's native overset machinery works
+through segregated matrix solves, so it never engages in HiSA's coupled
+system. **overset-hisafoam** bridges that gap and turns HiSA into a
 rotorcraft-capable overset solver:
 
 - **Explicit fringe coupling** for the coupled system: fringe/hole cell
   residuals are blanked before each linear solve, donor interpolation is
   triggered through the boundary-condition evaluation, and the conservative
   variables are re-synchronised thermodynamically on the fringe.
-- **`srfOversetFvMesh`** — single-rotating-frame (absolute-velocity ALE
-  formulation, Abuhanieh 2024) combined with the overset framework; the
-  component meshes are static in the rotating frame, so the overset stencil
-  is assembled **once**. Steady hover analyses at a fraction of the cost of
-  time-accurate rotation.
-- **`cyclicBladeMotion`** — unsteady rigid blade motion
-  `R_shaft(ωt) ∘ R_flap(β(ψ)) ∘ R_pitch(θ(ψ))` with per-blade azimuth phase
-  ψ₀, i.e. collective + cyclic pitch and coning + cyclic flapping, driven per
-  blade cellZone through `multiSolidBodyMotionSolver` +
-  `dynamicOversetFvMesh` (dual-time integration, ~1° of azimuth per step).
-- **High-order reconstruction** (`libhisaWENO`): UCNS3D-style k-exact CWENO,
-  formally verified to 3rd (`wenoDegree 2`) and 5th (`wenoDegree 4`) order on
-  the isentropic-vortex benchmark; genuinely high-order `hoWENO` flux with
-  multiple face Gauss points and pointwise **AUSM+up** or **AUSMPW+**
-  (Kim–Kim–Rho 2001) Riemann fluxes, plus an **eMLP-VC** region-based limiter
-  option; SRF-aware and parallel (multi-layer halo stencils).
+- **srfOversetFvMesh** — single-rotating-frame rotor modelling
+  (absolute-velocity ALE formulation, Abuhanieh 2024) combined with the
+  overset framework; the component meshes are static in the rotating frame,
+  so the overset stencil is assembled only once. Steady hover analyses at a
+  fraction of the cost of time-accurate rotation.
+- **cyclicBladeMotion** — unsteady rigid blade motion composed of the shaft
+  rotation, cyclic flapping and cyclic pitch (collective + first-harmonic
+  cyclic inputs with a per-blade azimuth phase), driven per blade cellZone
+  through multiSolidBodyMotionSolver + dynamicOversetFvMesh with dual-time
+  integration (about one degree of azimuth per physical time step).
+- **High-order reconstruction** (libhisaWENO): UCNS3D-style k-exact CWENO,
+  formally verified to 3rd and 5th spatial order on the isentropic-vortex
+  benchmark; a genuinely high-order flux path with multiple face Gauss
+  points and pointwise **AUSM+up** or **AUSMPW+** (Kim–Kim–Rho 2001) Riemann
+  fluxes, plus an **eMLP-VC** region-based limiter option; SRF-aware and
+  parallel (multi-layer halo stencils).
 - **OpenFOAM v2606 overset backport** — the v2606 robustness fixes to the
-  `inverseDistance` cell–cell stencil (fringe-to-fringe donor cascade
+  inverseDistance cell–cell stencil (fringe-to-fringe donor cascade
   prevention, empty-stencil demotion), backported to v2512 for thin-blade
   overset topologies.
-- **Case tooling** — PLOT3D → OpenFOAM component-mesh conversion and one-shot
-  generators for the steady SRF overset and unsteady cyclic cases, consuming
-  the meshes produced by
+- **Case tooling** — PLOT3D to OpenFOAM component-mesh conversion and
+  one-shot generators for the steady SRF overset and unsteady cyclic cases,
+  consuming the meshes produced by
   [pyhyp-rotor-overset-generator]({{ '/portfolio/portfolio-1-pyhyp-rotor-overset/' | relative_url }}).
 
-## ✅ Validation status
-| Case | Configuration | Result |
-|---|---|---|
-| Static cylinder (M ≈ 0.2) | `staticOversetFvMesh`, laminar | Physical solution; stagnation pressure & peak velocity match theory |
-| Caradonna–Tung hover (θ = 8°, M_tip = 0.439) | steady SRF overset, 6.4M cells (y+ ≈ 1 hex components + Cartesian background), SA | Clean OGA (63k fringe cells), monotone residual convergence |
-| Same rotor, conformal single mesh | pyHyp BL + graded far field, SRF | Cross-check track, 300 iterations |
-| Same rotor, unsteady | `cyclicBladeMotion` (1°/Δt, cyclic pitch & flap), dual-time backward, 7.0M cells | Rotating-blade overset stepping verified |
+## ✅ Validation Status
 
-## 🔧 Engineering notes
+<table>
+  <thead>
+    <tr><th>Case</th><th>Configuration</th><th>Result</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Static cylinder (M ≈ 0.2)</td>
+      <td>staticOversetFvMesh, laminar</td>
+      <td>Physical solution; stagnation pressure and peak velocity match theory</td>
+    </tr>
+    <tr>
+      <td>Caradonna–Tung hover (θ = 8°, M<sub>tip</sub> = 0.439)</td>
+      <td>Steady SRF overset, 6.4M cells (y+ ≈ 1 hex components + Cartesian background), Spalart–Allmaras</td>
+      <td>Clean overset assembly (63k fringe cells), monotone residual convergence</td>
+    </tr>
+    <tr>
+      <td>Same rotor, conformal single mesh</td>
+      <td>pyHyp boundary layer + graded far field, SRF</td>
+      <td>Cross-check track, 300 iterations</td>
+    </tr>
+    <tr>
+      <td>Same rotor, unsteady</td>
+      <td>cyclicBladeMotion (1° per step, cyclic pitch and flap), dual-time backward, 7.0M cells</td>
+      <td>Rotating-blade overset time stepping verified</td>
+    </tr>
+  </tbody>
+</table>
+
+## 🔧 Engineering Notes
+
 The README documents the full production checklist learned during
-development — overset patch/field dictionary pitfalls, why GAMG must be
+development: overset patch and field dictionary pitfalls, why GAMG must be
 replaced by PBiCGStab on overset-extended matrices, dual-time settings, and
-a built-in AUSM `sqrt`-argument diagnostic guard that pinpoints corrupted
-overset states by cell/face location.
+a built-in diagnostic guard on the AUSM sound-speed argument that pinpoints
+corrupted overset states by cell or face location.
 
 GPL-3.0 — built on HiSA (CSIR / O. Oxtoby, J. Heyns) and ESI OpenFOAM.
