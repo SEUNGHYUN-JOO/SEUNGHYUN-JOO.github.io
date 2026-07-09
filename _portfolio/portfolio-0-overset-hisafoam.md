@@ -1,6 +1,6 @@
 ---
 title: "overset-hisafoam: Overset & Rotor Extensions for the HiSA Density-Based Solver"
-excerpt: "Released on GitHub with a Zenodo DOI. Overset (chimera) support for the coupled density-based HiSA solver on ESI OpenFOAM: steady SRF rotor analyses with a one-shot stencil, unsteady rigid blade motion with per-blade cyclic pitch/flap, high-order (3rd/5th) CWENO reconstruction with AUSM+up / AUSMPW+ pointwise fluxes, and an OpenFOAM v2606 overset backport. Validated on the Caradonna–Tung rotor."
+excerpt: "Released on GitHub with a Zenodo DOI. Overset (chimera) support for the coupled density-based HiSA solver on ESI OpenFOAM: steady SRF rotor analyses with a one-shot stencil, unsteady rigid blade motion with per-blade cyclic pitch/flap, high-order (3rd/5th) CWENO reconstruction with AUSM+up / AUSMPW+ pointwise fluxes, and an OpenFOAM v2606 overset backport. Exercised end-to-end on the Caradonna–Tung rotor (bring-up level; production validation in progress)."
 collection: portfolio
 ---
 
