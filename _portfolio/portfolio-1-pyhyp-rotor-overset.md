@@ -12,7 +12,7 @@ Open-source toolchain that turns a **plain-text per-section planform table**
 (r/R, chord, twist about 0.25c, LE position, airfoil) into a complete overset
 (chimera) mesh system for rotor CFD:
 
-- **Blade component mesh** — a watertight "closed-sock" structured surface
+- **Blade component mesh** — a watertight structured surface
   marched into a wall-resolved (y+ ≈ 1) hexahedral boundary layer with
   [pyHyp](https://github.com/mdolab/pyhyp) (typical mean non-orthogonality ~2°)
 - **Full rotor** — automatic replication of the blade volume about the rotor
@@ -29,7 +29,7 @@ Open-source toolchain that turns a **plain-text per-section planform table**
 
 ## ⚙️ Key Features
 
-### Non-degenerate closed-sock topology
+### Non-degenerate watertight tip-cap topology
 pyHyp's normal-consistency check rejects any collapsed cap edge, so blade
 tips are closed with **Coons-TFI caps** whose four edges are exact point
 subsets of the blade perimeter (leading-edge nose arc / surfaces / blunt-TE
