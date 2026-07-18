@@ -65,6 +65,21 @@ finite difference.
   </tbody>
 </table>
 
+<figure>
+  <img src="{{ '/assets/images/portfolio-0-cudaflow/plate_sk_cf.png' | relative_url }}" alt="Schubauer–Klebanoff transitional flat plate skin friction">
+  <figcaption>Schubauer–Klebanoff transitional flat plate — CuDAFLOW SA-BCM skin friction tracks the transitional experiment through laminar, transition onset and the turbulent branch.</figcaption>
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/portfolio-0-cudaflow/aswbli_val.png' | relative_url }}" alt="Mach-7 axisymmetric shock/boundary-layer interaction wall pressure and heating">
+  <figcaption>Kussoy Mach-7 axisymmetric SWBLI (20° flare) — CuDAFLOW (SA) wall pressure and heat transfer against the WIND-US SA reference and experiment.</figcaption>
+</figure>
+
+<figure>
+  <img src="{{ '/assets/images/portfolio-0-cudaflow/m6Lconv_cp_clean.png' | relative_url }}" alt="ONERA M6 chordwise pressure at seven span stations">
+  <figcaption>ONERA M6 transonic wing (M = 0.84, α = 3.06°) — CuDAFLOW chordwise Cp at seven span stations captures the λ-shock, in line with CFL3D and FUN3D.</figcaption>
+</figure>
+
 ## 🔧 Engineering Notes
 
 The core finding is that for the stiff RANS discrete adjoint exact AD is not a
