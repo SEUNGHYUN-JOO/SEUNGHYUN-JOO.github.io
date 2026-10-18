@@ -2,6 +2,7 @@
 title: "Interpretable Data-Driven CFD Modeling via Field Inversion & Symbolic Regression"
 excerpt: "Using field inversion (FI) and symbolic regression (SR) to turn high-fidelity data into explicit, closed-form models: a mechanism-separated transition model for RANS (under review, AIAA Journal) and a vortex-aware reconstruction selector for shock-capturing schemes (under review, JCP)."
 collection: portfolio
+permalink: /portfolio/portfolio-5-fisr/
 ---
 
 ## 🔍 Project Overview
