@@ -1,15 +1,15 @@
 ---
-title: "cuad: Source-to-Source Automatic Differentiation for CUDA"
+title: "CuAD: Source-to-Source Automatic Differentiation for CUDA"
 excerpt: "An open-source, Tapenade-style source-to-source AD compiler for CUDA built on Clang LibTooling. It generates exact forward (tangent) and reverse (adjoint) GPU kernels from the original CUDA source, and powers the discrete adjoint of CuDAFLOW."
 collection: portfolio
 ---
 
-[![GitHub](https://img.shields.io/badge/GitHub-cuad-181717?logo=github)](https://github.com/SEUNGHYUN-JOO/cuad)
+[![GitHub](https://img.shields.io/badge/GitHub-CuAD-181717?logo=github)](https://github.com/SEUNGHYUN-JOO/cuad)
 
 ## 🔍 Project Overview
-**cuad** reads CUDA kernels and writes their derivatives as new CUDA source: a **forward (tangent)** companion `f_d` and a **reverse (adjoint)** companion `f_b` for each `__global__` / `__device__` function. Because it differentiates the kernel source itself, every derivative is exact (no finite differences), and the generated kernels run on the GPU like the originals.
+**CuAD** (CUDA Automatic Differentiation) reads CUDA kernels and writes their derivatives as new CUDA source: a **forward (tangent)** companion `f_d` and a **reverse (adjoint)** companion `f_b` for each `__global__` / `__device__` function. Because it differentiates the kernel source itself, every derivative is exact (no finite differences), and the generated kernels run on the GPU like the originals.
 
-cuad was developed for the exact discrete adjoint of [CuDAFLOW]({{ '/portfolio/portfolio-0-cudaflow/' | relative_url }}), where it differentiates the flux, viscous, and turbulence-model residual kernels.
+CuAD was developed for the exact discrete adjoint of [CuDAFLOW]({{ '/portfolio/portfolio-0-cudaflow/' | relative_url }}), where it differentiates the flux, viscous, and turbulence-model residual kernels.
 
 ## 🛠️ Key Features
 * **Forward and reverse mode**, including calls between user functions (each callee gets its own companion).
