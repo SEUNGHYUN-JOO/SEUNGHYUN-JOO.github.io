@@ -19,7 +19,7 @@ finite difference.
   with up to 5th-order MUSCL / eMLP-VC reconstruction, full viscous fluxes,
   Spalart–Allmaras (RANS) and SA-DDES/IDDES/Vreman (LES), implicit red-black /
   line (DADI) smoothing and pseudo-time multigrid, dual-time unsteady.
-- **`cuad` — CUDA AD compiler** — forward (tangent) and reverse (adjoint) mode;
+- **`cuad` — CUDA AD compiler** ([now a separate open-source repository]({{ '/portfolio/portfolio-6-cuad/' | relative_url }})) — forward (tangent) and reverse (adjoint) mode;
   handles arrays, structs, cross-call, `atomicAdd`, ternaries and 2-D array
   access. It differentiates the heavy flux/viscous/turbulence kernels exactly.
 - **Exact discrete adjoint** — the stiff RANS adjoint amplifies *any*
