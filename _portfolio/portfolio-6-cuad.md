@@ -4,7 +4,7 @@ excerpt: "An open-source, Tapenade-style source-to-source AD compiler for CUDA b
 collection: portfolio
 ---
 
-[![GitHub](https://img.shields.io/badge/GitHub-CuAD-181717?logo=github)](https://github.com/SEUNGHYUN-JOO/cuad)
+[![GitHub](https://img.shields.io/badge/GitHub-CuAD-181717?logo=github)](https://github.com/SEUNGHYUN-JOO/CuAD)
 
 ## 🔍 Project Overview
 **CuAD** (CUDA Automatic Differentiation) reads CUDA kernels and writes their derivatives as new CUDA source: a **forward (tangent)** companion `f_d` and a **reverse (adjoint)** companion `f_b` for each `__global__` / `__device__` function. Because it differentiates the kernel source itself, every derivative is exact (no finite differences), and the generated kernels run on the GPU like the originals.
