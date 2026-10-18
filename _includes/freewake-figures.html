@@ -1,0 +1,62 @@
+{% assign fw = '/assets/images/publication-freewake-adjoint/' | relative_url %}
+<style>
+  .fw-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: center; }
+  .fw-row img { flex: 1 1 260px; min-width: 0; max-width: 100%; height: auto; }
+</style>
+
+<h3>Caradonna–Tung rotor in hover (M<sub>tip</sub> = 0.487, θ = 8°)</h3>
+<figure>
+  <div class="fw-row">
+    <img src="{{ fw }}fw_ct487_wake.png" alt="Caradonna-Tung free-wake geometry" style="max-width:48%;">
+    <img src="{{ fw }}fw_ct487_surface_cp.png" alt="Caradonna-Tung blade surface pressure" style="max-width:48%;">
+  </div>
+  <img src="{{ fw }}fw_ct487_cp.png" alt="Caradonna-Tung sectional pressure, tip Mach 0.487" style="max-width:720px; display:block; margin:12px auto 0;">
+  <figcaption>Free-wake geometry, blade surface pressure, and sectional pressure distributions at r/R = 0.50, 0.68, 0.80, and 0.89, compared with experiment (NASA TM 81232).</figcaption>
+</figure>
+
+<h3>Caradonna–Tung rotor in hover (M<sub>tip</sub> = 0.877, θ = 8°)</h3>
+<figure>
+  <div class="fw-row">
+    <img src="{{ fw }}fw_ct781_wake.png" alt="Caradonna-Tung free-wake geometry, transonic" style="max-width:48%;">
+    <img src="{{ fw }}fw_ct781_surface_cp.png" alt="Caradonna-Tung blade surface pressure, transonic" style="max-width:48%;">
+  </div>
+  <img src="{{ fw }}fw_ct781_cp.png" alt="Caradonna-Tung sectional pressure, transonic" style="max-width:640px; display:block; margin:12px auto 0;">
+  <figcaption>Transonic case: sectional pressure distributions at r/R = 0.50, 0.80, and 0.96, including the shock on the outboard sections, agree well with experiment (Park 2024).</figcaption>
+</figure>
+
+<h3>HART II rotor in hover</h3>
+<figure>
+  <div class="fw-row">
+    <img src="{{ fw }}fw_hart2_hover_fm.png" alt="HART II hover figure of merit" style="max-width:52%;">
+    <img src="{{ fw }}fw_hart2_hover_wake.png" alt="HART II hover free-wake geometry" style="max-width:44%;">
+  </div>
+  <figcaption>Figure of merit versus blade loading for the panel, NVLM, and CFD hybrid solvers, compared with experiment and with KFLOW/CAMRAD II (SNU) and FLOWer-HOST (DLR); free-wake geometry on the right.</figcaption>
+</figure>
+
+<h3>HART II rotor in forward flight</h3>
+<figure>
+  <img src="{{ fw }}fw_hart2_ff_wake.png" alt="HART II forward-flight free-wake geometry" style="max-width:720px; display:block; margin:0 auto 12px;">
+  <div class="fw-row">
+    <img src="{{ fw }}fw_hart2_ff_cnm2.png" alt="HART II sectional normal force" style="max-width:60%;">
+    <img src="{{ fw }}fw_hart2_ff_deflection.png" alt="HART II tip flap and lag deflection" style="max-width:36%;">
+  </div>
+  <figcaption>Forward flight (μ = 0.151) coupled with an open-source geometrically exact beam (GEB) structural solver: wake geometry, sectional normal force (C<sub>n</sub>M²), and tip flap/lag deflections, compared with experiment and KFLOW/CAMRAD II.</figcaption>
+</figure>
+
+<h3>HART II hover planform optimization (hybrid solver)</h3>
+<figure>
+  <div class="fw-row">
+    <img src="{{ fw }}fw_hart2_hover_opt_history.png" alt="HART II hover optimization history" style="max-width:38%;">
+    <img src="{{ fw }}fw_hart2_hover_opt_planform.png" alt="HART II hover optimum chord and twist" style="max-width:58%;">
+  </div>
+  <figcaption>Figure of merit history (0.689 → 0.727) and optimized chord and twist distributions, compared with the KFLOW-based optimum (Hong et al., VFS 2024).</figcaption>
+</figure>
+
+<h3>HART II cruise planform optimization (unsteady VLM)</h3>
+<figure>
+  <div class="fw-row">
+    <img src="{{ fw }}fw_hart2_cruise_opt_planform.png" alt="HART II cruise optimum planforms" style="max-width:52%;">
+    <img src="{{ fw }}fw_hart2_cruise_opt_twist.png" alt="HART II cruise optimum twist" style="max-width:46%;">
+  </div>
+  <figcaption>Planforms at equal thrust-weighted solidity for the HART II baseline, the present cruise optimum, and the SNU Step 1 best-cruise design (3rd InDeWo), with the twist distributions (μ = 0.30).</figcaption>
+</figure>

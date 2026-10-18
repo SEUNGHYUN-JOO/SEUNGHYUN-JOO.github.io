@@ -9,7 +9,9 @@ redirect_from:
 
 # 👋 Hello, I'm Seunghyun Joo
 
-I am a **Master's student** at the **Aerospace Vehicle Design Laboratory (AVDL)**, Seoul National University. My research lies at the intersection of **Fluid Dynamics** and **Data-Driven Science**, with a specific focus on **Turbulence Modeling** and **Physics-Informed Machine Learning**.
+I am a **Research Associate** at the **Institute of Advanced Aerospace Technology**, Seoul National University, where I continue my research with the **Aerospace Vehicle Design Laboratory (AVDL)**. I received my M.S. in Aerospace Engineering from Seoul National University in August 2026. My research lies at the intersection of **Fluid Dynamics** and **Data-Driven Science**, with a specific focus on **Turbulence Modeling**, **Physics-Informed Machine Learning**, and **Adjoint-Based Aerodynamic Design**.
+
+> 🎯 **I am currently looking for a PhD position.** Please feel free to contact me at [chlrh45351@gmail.com](mailto:chlrh45351@gmail.com).
 
 ---
 
@@ -21,8 +23,13 @@ My research goal is to develop robust aerodynamic models by integrating physics-
 
 ---
 
+## 💼 Experience
+* **Research Associate**, Institute of Advanced Aerospace Technology, Seoul National University, *Sep 2026 – Present*
+
+---
+
 ## 🎓 Education
-* **M.S. in Aerospace Engineering**, Seoul National University, *Sep 2024 – Present*
+* **M.S. in Aerospace Engineering**, Seoul National University, *Sep 2024 – Aug 2026*
 * **B.S. in Aerospace Engineering & B.B.A. in Business Administration (Double Major)**, Seoul National University, *Aug 2024*
 
 ---
