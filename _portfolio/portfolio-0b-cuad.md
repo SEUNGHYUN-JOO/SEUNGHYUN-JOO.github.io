@@ -2,6 +2,7 @@
 title: "CuAD: Source-to-Source Automatic Differentiation for CUDA"
 excerpt: "An open-source, Tapenade-style source-to-source AD compiler for CUDA built on Clang LibTooling. It generates exact forward (tangent) and reverse (adjoint) GPU kernels from the original CUDA source, and powers the discrete adjoint of CuDAFLOW."
 collection: portfolio
+permalink: /portfolio/portfolio-6-cuad/
 ---
 
 [![GitHub](https://img.shields.io/badge/GitHub-CuAD-181717?logo=github)](https://github.com/SEUNGHYUN-JOO/CuAD)
