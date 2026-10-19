@@ -14,7 +14,7 @@ CuAD was developed for the exact discrete adjoint of [CuDAFLOW]({{ '/portfolio/p
 
 ## 🛠️ Key Features
 * **Forward and reverse mode**, including calls between user functions (each callee gets its own companion).
-* **Activity analysis**: only variables on an active input-to-output path are differentiated.
+* **Activity analysis**: only variables that depend on active inputs are differentiated.
 * **Tape for overwritten values**, stored in a per-thread tape; pure accumulations (`v = v + e`) are recognised and need no tape.
 * **GPU-safe adjoint accumulation**: `atomicAdd` for shared arrays, plain `+=` for thread-local data.
 * **Loops and control flow**: grid-stride loops, per-iteration recomputation, `#pragma unroll`, early exits, `c ? a : b`.
